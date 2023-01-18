@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+			    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+			<context:component-scan base-package="org.tyss.practice"></context:component-scan>
+
+	<!--<bean id="eng" class="org.tyss.practice.Engine" />
+	<bean id="car" class="org.tyss.practice.Car">
+	<property name="engine" ref="eng"></property>
+	</bean>
+	<bean class="org.tyss.practice.DriverFeedback">
+	<property name="car" ref="car"></property>	
+	</bean>-->
+	
+	
+
+
+
+</beans>
